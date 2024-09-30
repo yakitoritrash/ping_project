@@ -22,7 +22,7 @@ def index(host):
         header = '<meta http-equiv="refresh" content = "5">'
         page = f''' {header}
                     <h1>{host}</h1>
-                    <p>{response}</p>
+                    <pre>{response}</pre>
                 '''
         
         return page
